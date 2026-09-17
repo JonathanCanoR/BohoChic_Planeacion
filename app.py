@@ -1,8 +1,7 @@
 """
 BOHO CHIC — App de Análisis de Inventario y Traslados
 ======================================================
-Desarrollado en el marco del Programa IA para la Productividad
-Colsubsidio 2026 | Great Boost Inc.
+Jonathan Cano - 3124278926
 """
 
 import streamlit as st
@@ -16,7 +15,7 @@ from openpyxl.formatting.rule import FormulaRule
 
 # ── CONFIGURACIÓN DE PÁGINA ────────────────────────────────
 st.set_page_config(
-    page_title="BOHO CHIC — Inventario",
+    page_title="BOHO CHIC — Traslados",
     page_icon="👗",
     layout="wide"
 )
@@ -54,8 +53,8 @@ st.markdown("""
 # ── HEADER ─────────────────────────────────────────────────
 st.markdown("""
 <div class="main-header">
-    <h1>👗 BOHO CHIC — Análisis de Inventario</h1>
-    <p>Programa IA para la Productividad · Colsubsidio 2026 · Great Boost Inc.</p>
+    <h1>👗 BOHO CHIC — Traslados, Planeación</h1>
+    <p>Actualización, 17/09/2026 - Jonathan Cano</p>
 </div>
 """, unsafe_allow_html=True)
 
